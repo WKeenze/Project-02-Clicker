@@ -1,0 +1,74 @@
+html{
+    font-family: 'MedievalSharp', cursive;
+    font-size: 16px;
+    background-color: #727070;
+}
+
+.mainbody{
+    display: flex;
+    justify-content:space-evenly;
+    flex: 1;
+}
+
+.clickme{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 2px black;
+    font-size: 2em;
+    text-align: center;
+   
+}
+
+.clicker {
+    size: 10em;
+}
+
+.upgrades{
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    text-align:center;
+    background-color: black;
+    color: gray;
+}
+
+button{
+    justify-content: center;
+    font-family: 'MedievalSharp', cursive;
+    border: solid 2px black;
+    margin: 4px;
+    color:black;
+    font-size: 1em;
+    font-weight: bolder
+
+
+}
+
+.level{
+    border: solid 2px black;
+    margin: 4px;
+    color:black;
+    font-size: 1em;
+    font-weight: bolder
+
+}
+
+
+
+.fuel{
+    background-color: darkgray;
+}
+
+.air{
+    background-color: lightblue;
+}
+
+.insul{
+    background-color: bisque;
+}
+
+.levelten{
+    background-color:goldenrod
+
+}
